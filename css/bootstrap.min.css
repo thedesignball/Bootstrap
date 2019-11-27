@@ -77,8 +77,9 @@ body{
   padding-bottom:30px;
 }
 #burger{
+  margin-right: 100px;
   float: right;
-  width: 100px;
+  width: 50px;
 }
 #burger:hover{
   transform: rotate(90deg);
@@ -86,10 +87,10 @@ body{
 }
 
 .bar{
-  height: 15px;
-  background: #000;
-  margin-bottom: 15px;
-  border-radius: 25px;
+  height: 10px;
+  background: #0766af;
+  margin-bottom: 10px;
+  border-radius: 15px;
   position: relative;
   -webkit-transition: .s all ease;
   transition: .s all ease;
@@ -100,11 +101,11 @@ body{
 }
 
 #burger:hover .bar.top{
-  transform: translateX(0) translateY(30px) rotate(45deg);
+  transform: translateX(-5px) translateY(20px) rotate(45deg);
 }
 
 #burger:hover .bar.bottom{
-  transform: translateX(0) translateY(-30px) rotate(-45deg);
+  transform: translateX(-5px) translateY(-20px) rotate(-45deg);
 }
 
 
@@ -164,7 +165,7 @@ button:hover::after, button:hover::before{
   width: 640px;
   position: relative;
   padding-top: 325px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .slider > img{
